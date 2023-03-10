@@ -3,9 +3,9 @@
 class SignupPage {
 
     go() {
-        cy.visit('/index.php');
-        cy.get('.login').click();
-        cy.get('#create-account_form .page-subheading').should('have.text', 'Create an account');
+        cy.visit('/');
+        cy.get('.login__buttons [type="button"]').click();
+        cy.get('#create-account_form .page-subheading').should('have.text', 'Criar conta com saldo ?');
 
     }
     fillform(user) {

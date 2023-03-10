@@ -23,14 +23,8 @@ export default {
                 anotherstreet: '191 Homewood Ave. Tampa'
 
             }
-
-
-
-
         }
 
         return data
-
     }
-
 }
